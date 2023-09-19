@@ -11,6 +11,7 @@ header{
 }
 nav{
     display: flex;
+    align-items: center;
 }
 .logo{
    
@@ -36,6 +37,37 @@ nav ul li{
 nav ul li a{
     color: rgb(0, 0, 0);
     text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(0, 17, 255);
+    font-weight: bold;
+}
+.search{
+   display: flex;
+   align-items: center;
+}
+.search input{
+    margin: 0px 10px 0px 56px;
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.btn{
+    padding: 5px 7px;
+    color: rgb(0, 0, 0);
+    background-color: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    
+
+}
+.btn:hover{
+    color: blue;
+    font-weight: bold;
+
 }
 .container{
     min-height: calc(80vh);
