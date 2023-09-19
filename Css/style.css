@@ -4,10 +4,21 @@
     margin: 0;
 }
 header{
-    
-    background-color: black;
+    /* height: 58px; */
+    background-color: #fff;
     border: 2px solid red;
     font-family: 'Lato', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px
 }
 nav ul{
     height: 9vh;
@@ -23,6 +34,9 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
+}
+.container{
+    min-height: calc(100vh-20vh);
 }
 footer{
     height: 12vh;
