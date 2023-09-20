@@ -3,11 +3,20 @@
     padding: 0;
     margin: 0;
 }
+.text-center{
+    text-align: center;
+}
 header{
     height: 58px;
     background-color: #dad7b0;
     border: 2px solid red;
     font-family: 'Lato', sans-serif;
+}
+.card-items{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 nav{
     display: flex;
@@ -73,8 +82,18 @@ nav ul li a:hover{
     min-height: calc(80vh);
 }
 .slider{
+    width: 80vh;
     display: flex;
     justify-content: center;
+    margin: 12px auto;
+}
+.card{
+    max-width: 90vw;
+    margin: auto;
+}
+.card h2{
+    margin: 20px 0px;
+    /* font-family: 'Lato', sans-serif; */
 }
 footer{
     height: 12vh;
