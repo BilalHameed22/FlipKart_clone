@@ -72,6 +72,10 @@ nav ul li a:hover{
 .container{
     min-height: calc(80vh);
 }
+.slider{
+    display: flex;
+    justify-content: center;
+}
 footer{
     height: 12vh;
     background-color: black;
