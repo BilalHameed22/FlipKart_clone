@@ -14,7 +14,7 @@ header{
 }
 .card-items{
     width: 160px;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -79,17 +79,26 @@ nav ul li a:hover{
 
 }
 .container{
-    min-height: calc(80vh);
+    min-height: 80vh;
+    
+
 }
 .slider{
-    width: 80vh;
     display: flex;
     justify-content: center;
+    width: 80vh;
     margin: 12px auto;
+}
+.cards{
+    margin: 0px 50px;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    /* width: 80vh; */
 }
 .card{
     max-width: 90vw;
-    margin: auto;
+    margin: 0px 10px;
 }
 .card h2{
     margin: 20px 0px;
