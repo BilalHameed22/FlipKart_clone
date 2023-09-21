@@ -57,7 +57,7 @@ nav ul li a:hover{
 }
 .search input{
     margin: 0px 10px 0px 56px;
-    width: 500px;
+    width: 30vw;
     height: 25px;
     border-radius: 5px;
     padding-left: 10px;
@@ -88,8 +88,11 @@ nav ul li a:hover{
     justify-content: center;
     width: 80vh;
     margin: 12px auto;
+    overflow: hidden;
 }
 .cards{
+    background-color: burlywood;
+    padding: 10px;
     margin: 0px 50px;
     display: flex;
     justify-content: center;
